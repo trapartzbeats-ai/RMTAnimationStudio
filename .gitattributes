@@ -1,0 +1,2 @@
+# LF everywhere: index.html allows its import map by sha256 hash, CRLF would change the hash
+* text=auto eol=lf
