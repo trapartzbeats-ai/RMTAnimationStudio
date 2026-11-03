@@ -35,7 +35,7 @@ export class App extends EventTarget {
       show: { bones: true, labels: true, trail: true, sockets: false, props: true, gameFeet: true, fingers: false, wrap: true, wrapCaps: false, fx: true }, stripCols: 8, stripFollow: false,
       pending: null, ctx: {}, poseCopy: null, keysCopy: [], agentFlash: 0, apiLog: [], status: "", statusKind: "info", sockSpecs: {}, ankle: 0,
       stage: null, views: null, info: null, wrapData: null, matchScale: 1, wrapStats: null, fxSel: -1, mode: "POSE", libraryTab: "Models",
-      rigV5Data: null, rigSoles: null, v5Upgrade: null, v5: null, v5Axis: {}, boneTier: "simple",
+      rigV5Data: null, rigSoles: null, v5Upgrade: null, v5: null, v5Axis: {}, boneTier: "advanced",
     });
     this._solvers = new WeakMap();
     this._wrapTrack = null;

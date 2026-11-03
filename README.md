@@ -11,6 +11,28 @@ The rest of this file is the Fight Studio Desktop text it started from: it opens
 **Fight Studio Animator** (`game/packs/city_breaker/animator`), so you can switch between the two on the same clip. Fighters load
 straight from the game's GLBs (`assets/chars/<key>_fight.glb`); poses, rig controls and sockets are shared files.
 
+## Screenshots
+
+**POSE** - the Fight Studio workspace: four views, dope sheet, rig controls, and the Library (models, animations, effects).
+![POSE mode](docs/screenshots/pose.png)
+
+**Library + FX lane** - 201 effect blocks to browse, and effect cues on their own lane in the dope sheet.
+![Effects library and the FX cue lane](docs/screenshots/library-fx-lane.png)
+
+**FX** - FX Studio edits any effect block live: layer timeline, shader knobs read from the .gdshader, save or revert.
+![FX Studio](docs/screenshots/fx-studio.png)
+
+**COMPOSE** - recipes put the right effects on the right frames of the move, with snaps and its own undo.
+![Compose](docs/screenshots/compose.png)
+
+**REVIEW** - a verdict on the open move from real checks; here it flags an impact spark that lands 4 frames after the hit.
+![Review: needs work](docs/screenshots/review.png)
+The same move as saved, with no effect cues, reads READY: an attack with no effect is a note, not a warning (from the packaged app).
+![Review: ready](docs/screenshots/review-ready.png)
+
+**SETUP** - nine steps from model to saved clip, each with a fix (or FIX ALL).
+![Setup](docs/screenshots/setup.png)
+
 ## Install
 
 Run `RMTAnimationStudio-Setup-<version>.exe` (Windows 10 / 11, 64-bit; the current one is 2.0.0). On first start it asks for the
