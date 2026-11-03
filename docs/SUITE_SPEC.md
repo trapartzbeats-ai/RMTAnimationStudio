@@ -112,5 +112,11 @@ Fight Studio for all animation; feet planted; knees/joint limits; collision wrap
   %LOCALAPPDATA%\electron-builder\Cache\winCodeSign\winCodeSign-2.6.0 (the two dylib errors ignored); after that the build runs.
   Only the game's Godot path and its data are read from the machine, so the installed app needs the BSP Universe project and
   Godot where this machine has them (the Setup panel says what it finds).
+- Installer pictures (2026-11-03): tools/make_installer_art.py draws build/installerSidebar.bmp + uninstallerSidebar.bmp (164x314: a
+  frame of the Vix ultimate under a slash, the RMT wordmark and version below), build/installerHeader.bmp (150x57, icon + wordmark) and
+  the logo (build/logo.png = docs/logo.png, the README banner); package.json nsis points at them. Rebuilt the same day with the default
+  bone tier "advanced" (synced from Fight Studio Desktop; the first build had "simple"): 112,238,284 bytes, still unsigned. Seen by
+  opening the installer (not installing): the header picture and the icon show; the sidebar belongs to the finish page and the
+  uninstaller's welcome page, which were not opened. The installer notices an earlier per-user install and upgrades it.
 - Not built: camera and audio tracks (the game has no clip format for either yet).
 - Next: camera / audio when the game has somewhere to read them.

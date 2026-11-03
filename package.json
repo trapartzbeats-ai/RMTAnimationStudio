@@ -63,6 +63,9 @@
       "shortcutName": "RMT Animation Studio",
       "installerIcon": "build/icon.ico",
       "uninstallerIcon": "build/icon.ico",
+      "installerSidebar": "build/installerSidebar.bmp",
+      "uninstallerSidebar": "build/uninstallerSidebar.bmp",
+      "installerHeader": "build/installerHeader.bmp",
       "artifactName": "RMTAnimationStudio-Setup-${version}.exe",
       "uninstallDisplayName": "RMT Animation Studio"
     }

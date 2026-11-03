@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.png" alt="RMT Animation Studio - poses, effects, review, setup" width="720"></p>
+
 # RMT Animation Studio
 
 One app for the poses, effects, review and setup of City Breaker / BSP Universe clips (Electron + three.js). It grew out of
@@ -67,7 +69,9 @@ npm run selftest                   # 338 checks, about 4 min, prints to out/desk
 npm run dist                       # builds dist/RMTAnimationStudio-Setup-<version>.exe (and dist/win-unpacked)
 ```
 
-Building the installer: `tools/make_icon.py` draws `build/icon.png` / `build/icon.ico` (needs Pillow). On Windows without the
+Building the installer: `tools/make_icon.py` draws `build/icon.png` / `build/icon.ico`, then `tools/make_installer_art.py` draws the
+wizard's pictures (`installerSidebar.bmp`, `uninstallerSidebar.bmp`, `installerHeader.bmp`) and the logo (`build/logo.png`,
+`docs/logo.png`); both need Pillow, and the sidebar uses a frame from `docs/videos`. On Windows without the
 symlink privilege electron-builder cannot extract its winCodeSign archive; unpack it by hand into
 `%LOCALAPPDATA%\electron-builder\Cache\winCodeSign\winCodeSign-2.6.0` (the two macOS dylib link errors can be ignored).
 
