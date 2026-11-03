@@ -33,6 +33,21 @@ The same move as saved, with no effect cues, reads READY: an attack with no effe
 **SETUP** - nine steps from model to saved clip, each with a fix (or FIX ALL).
 ![Setup](docs/screenshots/setup.png)
 
+## What it makes: City Breaker ultimates, live
+
+These clips are not recordings of the app. They are the game playing ultimates (final smashes) whose animations were keyed in
+Fight Studio and whose effects were built in the Effect Studio, the two tools this suite brings together: poses, FX cues,
+camera cuts and comic layers all running in City Breaker's test lab (13 s, 720p, with sound). Click a picture to play.
+
+[![Vix - ALL CITY](docs/videos/vix_ultimate.jpg)](docs/videos/vix_ultimate.mp4)
+**Vix - ALL CITY**: a paint-spray catch, the victim splatted on the wall, then a kick through it.
+
+[![Carter - MAIN EVENT](docs/videos/carter_ultimate.jpg)](docs/videos/carter_ultimate.mp4)
+**Carter - MAIN EVENT**: boxing ring, POW flurry, an uppercut through the lights, and the belt.
+
+[![Kristine - NINE LIVES](docs/videos/kat_ultimate.jpg)](docs/videos/kat_ultimate.mp4)
+**Kristine - NINE LIVES**: the yarn ball, nine ghost clones and the claw swipes under the moon.
+
 ## Install
 
 Run `RMTAnimationStudio-Setup-<version>.exe` (Windows 10 / 11, 64-bit; the current one is 2.0.0). On first start it asks for the
